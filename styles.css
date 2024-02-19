@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+ul,
+li {
+    list-style-type: none;
+}
+
+.wrap {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35.16px;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 661px;
+    height: auto;
+    padding: 50px 0 50px 0;
+    background: #C4C4C4;
+}
+
+.displayResult {
+    margin: 0 auto;
+    width: 500px;
+
+    .searchInput {
+        width: 100%;
+    }
+}
+
+.searchInput {
+    font-weight: bold;
+    height: 61px;
+    font-size: 30px;
+}
+
+.repoInpLi {
+    padding: 3px;
+    background: #E3E3E3;
+    width: 497px;
+    border: 2px solid black;
+    cursor: pointer;
+
+    &:hover {
+        background: #65CDF9;
+    }
+}
+
+.repoItem {
+    padding: 8px;
+    position: relative;
+    right: 39px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 490px;
+    height: auto;
+    background: #E27BEB;
+    border: 1px solid black;
+    line-height: 28.13px;
+    font-size: 24px;
+
+    &img {
+        cursor: pointer;
+    }
+}
+
+.avatarOwner {
+    width: 50px;
+    position: absolute;
+    right: 522px;
+    bottom: 25px;
+    transition: 0.2s ease-in-out;
+    &:hover {
+        transform: scale(1.5);
+    }
+}
+
+.deleteBtn {
+    cursor: pointer;
+}

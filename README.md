@@ -1,1 +1,1 @@
-https://sergeyxyzz.github.io/js_core_task/
+https://sergeyxyzz.github.io/KATA__task-fetch-repositories
